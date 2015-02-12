@@ -58,4 +58,3 @@ app.get('/auth/facebook/callback', passport.authenticate('facebook',{
 
 app.listen(port, function() {
 	console.log('Now listening on 9998')
-});
